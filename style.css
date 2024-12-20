@@ -1,0 +1,153 @@
+.blue a:hover{
+    color:#3a77ff !important;
+}
+
+.bg{
+    background-color:rgb(210, 206, 206);
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.bg2 {
+    margin-left: 20px;
+}
+
+.dropd{
+    padding: 10px;  
+    border: 1px solid black; 
+    width: 302px;
+    border-radius: 5px;
+}
+
+.dropd input{
+    border: none;
+}
+
+.dropd button img {
+    color: white;
+}
+
+.dropd input:focus{
+    outline: none;
+}
+
+.dropd input:focus {
+    border:none;
+}
+
+
+.inpt{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inpt input{
+    width: 100%;
+    padding: 10px 8px;
+    margin-left: 14px;
+    border-radius: 5px; 
+}
+
+.inpt input:focus{
+    outline: none;
+}
+
+.inpt button{
+    background-color: #002f34;
+    padding:10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.inpt button i{
+    color: white;
+}
+
+.inptmargin {
+    width: 220px
+}
+
+.btns{
+    margin-left: 10px;
+}
+
+.btn1{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 30px;    
+}
+
+.btn1:hover{
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: white;
+    border-top-color: aqua;
+    border-right-color: rgb(0, 128, 255);
+    border-left-color: yellow;
+    border-bottom-color: greenyellow;
+    border-width: 6px;
+    border-radius: 40px;
+    padding: 7px 20px;
+}
+
+.cards {
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.sell {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.list {
+    margin-top: 15px;
+}
+.list ul {
+    list-style: none;
+    color: #002f34;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list ul li:hover {
+    color: #00a49f;
+}
+
+@media (max-width:1248px) {
+    .cards {
+        gap: 70px;
+    }
+    .footerset {
+        width: 200px;
+        height: ;
+    }
+    .hidden {
+        display: none;
+    }
+    .logodiv {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width:1200px) {
+    .dropd {
+        width: 250px;
+    }
+    .inptmargin {
+        width: 170px;
+    }
+    .ad1 {
+        display: none;
+    }
+    .cards {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
